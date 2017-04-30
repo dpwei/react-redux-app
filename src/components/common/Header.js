@@ -1,5 +1,5 @@
-import * as React from "react";
-import {IndexLink, Link} from "react-router";
+import * as React from "react"
+import {IndexLink, Link} from "react-router"
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
       {" | "}
       <Link to="/about" activeClassName="active">About</Link>
     </nav>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
